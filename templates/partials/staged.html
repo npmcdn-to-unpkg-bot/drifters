@@ -1,0 +1,22 @@
+<h2 id='counter'>We staged {{ count }} drifters<h2>
+<div class="grid" data-masonry='{ "isFitWidth": true, "itemSelector": ".grid-item", "columnWidth": 365, "gutter": 20}'>
+      {{#each rows}}
+      <div class="row">
+        <div class="grid-item" >
+          <div class="card">
+            <span class="name">{{decodeStuff name}}</span>
+            <a href="#"><i class="fa fa-undo" aria-hidden="true"></i></a>
+            <br>
+            <p class="contacts">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i> <span class="email">{{decodeStuff email}}</span><br>    
+              <i class="fa fa-phone" aria-hidden="true"></i> <span class="phone">{{decodeStuff phone}}</span>
+            </p>
+            <p id="why">{{decodeStuff why}}</p>
+            <p id="blogs">
+              {{decodeStuff blogs 'yes'}}
+            </p>
+          </div>    
+        </div>
+      </div>
+      {{/each}}
+</div>
