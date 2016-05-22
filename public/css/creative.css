@@ -14,6 +14,33 @@ body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
+.grid {
+  background: #222;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+}
+
 hr {
     max-width: 50px;
     border-color: #f05f40;
@@ -150,6 +177,25 @@ aside {
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
+}
+
+#feature-box{
+    margin-top: 20px;
+}
+
+#sentences{
+    font-size: 17px;
+}
+
+
+@media(min-width:993px) {
+    #feature-box {
+        margin-top: 200px;
+    }
+
+    #sentences{
+    font-size: 22px;
+    }
 }
 
 @media(min-width:768px) {
