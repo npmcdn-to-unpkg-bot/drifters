@@ -1,13 +1,10 @@
 {
-  "name": "drifters-backend-dev",
-  "version": "1.0.0",
+  "name": "drifters-backend",
+  "version": "0.9.9",
   "description": "A node.js app to handle the backend of drifters.in",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },"repository" :
-  { "type" : "git", 
-    "url" : "https://github.com/IamSachin/drifters.git"
   },
   "author": "Sachin Rajput",
   "license": "UNLICENSED",
