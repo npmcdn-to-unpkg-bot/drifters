@@ -15,7 +15,7 @@ $(document).ready(function() {
         list: textlist ,
         startIndex:0,
         trickerPanel: $('#sentences'),
-        interval: 6 * 1000,
+        interval: 4 * 1000,
     });
 
 });

@@ -288,6 +288,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 100;
+    color: #111;
 }
 
 header .header-content .header-content-inner hr {
