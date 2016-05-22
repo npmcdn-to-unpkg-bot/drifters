@@ -9,6 +9,7 @@ const dbcon = mysql.createConnection({
 	database: 'drifters'
 });
 
+//conf
 //server conf
 var server = new Hapi.Server();
 server.connection({

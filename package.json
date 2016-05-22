@@ -1,6 +1,6 @@
 {
   "name": "drifters-backend",
-  "version": "0.9.7",
+  "version": "0.9.8",
   "description": "A node.js app to handle the backend of drifters.in",
   "main": "index.js",
   "scripts": {
