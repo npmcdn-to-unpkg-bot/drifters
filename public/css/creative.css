@@ -68,6 +68,14 @@ a {
     border-color: transparent;
 }
 
+.navbar-toggle{
+    border: 0;
+}
+
+#custom-toggle:hover, #custom-toggle:focus{
+    background-color: transparent;
+}
+
 .invite-box{
     box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 5px;
 }
